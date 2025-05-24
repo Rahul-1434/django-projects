@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+}
+
+.signup-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.signup-login h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.signup-box {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.inp {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inp:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+}
+
+.submit-button {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1565c0;
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 8px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Todo h5, .Todo p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.Todo div {
+    display: flex;
+    gap: 8px;
+}
+
+.Todo a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.Todo a:hover {
+    color: #1976d2;
+}
+
+.Todo i {
+    font-size: 20px;
+}
+
+.fa-solid {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-right-from-bracket {
+    font-size: 24px;
+    color: #1976d2;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fa-right-from-bracket:hover {
+    color: #1565c0;
+}
+
+.fa-pen-to-square {
+    color: #4caf50;
+}
+
+.fa-trash {
+    color: #f44336;
+}
+
+.fa-pen-to-square:hover {
+    color: #388e3c;
+}
+
+.fa-trash:hover {
+    color: #d32f2f;
+}
+
+.anc {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.anc:hover {
+    text-decoration: underline;
+    color: #1565c0;
+}
